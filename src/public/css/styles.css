@@ -1,0 +1,28 @@
+body {
+  background-color: #dee2e6;
+}
+
+.main{
+    margin-top: 4rem;
+}
+
+.table {
+  background-color: #e00808;
+}
+
+.table th {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(0, 123, 255, 0.05);
+}
+
+@media (max-width: 767px) {
+  .table-responsive {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+  }
+}
