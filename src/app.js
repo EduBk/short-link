@@ -10,7 +10,7 @@ dotenv.config();
 //! Creamos nuestra app y el puerto
 const app = express();
 const port = process.env.PORT;
-
+console.log("MongoDB URI: ", process.env.DATABASE_URL);
 //! URL del PATH
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
